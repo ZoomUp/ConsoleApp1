@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //ДЗ_01 Переменные
             Console.WriteLine("Введите число A");
             double numberA = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите число B");
