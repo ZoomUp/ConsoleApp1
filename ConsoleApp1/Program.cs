@@ -49,8 +49,8 @@ namespace ConsoleApp1
             Console.WriteLine("Введите значение Y2");
             double numberY2 = Convert.ToDouble(Console.ReadLine());
 
-            numberA = (numberY1 - numberY2) / (numberX1 - numberX2);
-            numberB = numberY2 - numberA * numberX2;
+            numberA = (numberY2 - numberY1) / (numberX2 - numberX1);
+            numberB = numberY1 - numberA * numberX1;
             if (numberB < 0)
             {
                 Console.WriteLine("Ответ на пятое задание: Y = " + numberA + "X + (" + numberB + ")");
